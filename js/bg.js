@@ -17,7 +17,7 @@ $(document).ready(function () {
 function b() {
     var id = document.getElementById("id").value;
     var pwd = document.getElementById("pwd").value;
-    if(id=="RX"&&pwd=="19991002"){
+    if(id=="NQ"&&pwd=="19960722"){
         return true;
     }else {
         window.alert("用户名或密码错误！")
@@ -26,6 +26,6 @@ function b() {
 
 }
 function a() {
-    window.alert("此网站RX一人独享，不予注册")
+    window.alert("此网站NQ一人独享，不予注册")
 
 }
